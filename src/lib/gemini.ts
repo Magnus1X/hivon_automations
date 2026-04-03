@@ -9,7 +9,7 @@ export async function generateSummary(content: string) {
     return null;
   }
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const prompt = `Please provide a concise, engaging summary of about 200 words for the following blog post content. Focus on the main points and key takeaways:\n\n${content}`;
 
     const result = await model.generateContent(prompt);

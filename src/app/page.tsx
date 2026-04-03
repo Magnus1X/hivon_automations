@@ -10,7 +10,7 @@ export default function Home() {
       <section className="animate-up" style={{ textAlign: 'center', paddingTop: '8rem', paddingBottom: '6rem' }}>
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.625rem', padding: '0.375rem 1rem', background: '#f8fafc', borderRadius: '100px', border: '1px solid var(--border)', marginBottom: '2.5rem', color: '#000000', fontWeight: 600, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
           <div style={{ padding: '0.125rem 0.5rem', background: '#000000', borderRadius: '100px', color: 'white', fontSize: '0.625rem' }}>NEW</div>
-          Powered by Gemini 1.5 Flash
+          Powered by Gemini 2.0 Flash
         </div>
 
         <h1 style={{ 
